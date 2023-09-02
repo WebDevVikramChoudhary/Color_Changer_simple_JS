@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nav_bar,
+#nav_bar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#nav_bar ul {
+  width: 40%;
+  list-style: none;
+}
+#nav_bar ul a {
+  text-decoration: none;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container h2 {
+  border: 2px solid;
+  padding: 0.5em;
+  background: rgb(31, 31, 31);
+  color: rgb(225, 241, 255);
+}
+#generat_color {
+  margin-top: 2rem;
+  background: none;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 0.3em;
+  cursor: pointer;
+}
